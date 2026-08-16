@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "ziyno-addons",
+	"version": "${version}",
+	"name": "Ziyno Addons",
+	"description": "we all doing ziyno trap",
+	"authors": [
+		"Ziyno"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ziyno.ziynoaddons.ZiynoAddons",
+			"com.ziyno.ziynoaddons.LeverFeatureInitializer"
+		]
+	},
+	"mixins": [
+		"ziyno-addons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

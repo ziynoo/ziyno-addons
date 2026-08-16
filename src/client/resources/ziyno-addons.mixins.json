@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.ziyno.ziynoaddons.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BatWingsMixin",
+    "CameraMixin",
+    "ConnectionMixin",
+    "NoHandSwayMixin",
+    "SwordBlockMixin",
+    "SwordBlockArmMixin",
+    "SwordBlockBreakMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
